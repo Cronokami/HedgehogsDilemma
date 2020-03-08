@@ -62,4 +62,10 @@ public class MonsterMovement : MonoBehaviour
 		SceneManager.LoadScene("Vitoria");
 
 	}
+
+
+	public void Stop()
+	{
+		agent.SetDestination(transform.position);
+	}
 }
