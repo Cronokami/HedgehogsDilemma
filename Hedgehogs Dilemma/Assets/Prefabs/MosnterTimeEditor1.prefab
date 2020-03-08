@@ -1315,6 +1315,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
   agent: {fileID: 2591917320373348739}
+  start: {fileID: 2100000, guid: f49f3fa317c38f44198950f1285ed34f, type: 2}
+  pause: {fileID: 2100000, guid: 6cf289d54c7c10c4ba714054d5f8844b, type: 2}
 --- !u!1 &8676475690986500891
 GameObject:
   m_ObjectHideFlags: 0
