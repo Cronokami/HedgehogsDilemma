@@ -24,4 +24,21 @@ public class CarMovement : MonoBehaviour
 			agent.SetDestination(targetPoints[Random.Range(0, targetPoints.Length - 1)].position);
 		}
 	}
+
+	private void OnTriggerEnter(Collider collision)
+	{
+
+
+		if (collision.CompareTag("Monstro"))
+		{
+
+
+		}
+
+		else if (collision.CompareTag("Car"))
+		{
+			agent.SetDestination(targetPoints[Random.Range(0, targetPoints.Length - 1)].position);
+
+		}
+	}
 }
